@@ -6,16 +6,17 @@ var myName = 'Sid';
  * `name`, assign it the same name as before,
  * as well as an `age` (number);
  */
+
 var person = {
-	name:myName,
-	age:89
+  name:myName,
+  age:89
 };
 
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
  */
 
-var canDrive = person.age>=16;
+var canDrive = person.age >= 16;
 
 
 /* Create a function called `greet`,
@@ -23,8 +24,8 @@ var canDrive = person.age>=16;
  * and it should print "Hello, my name is {name}"
  */
 
-function greet (name) {
-	console.log('Hello, my name is ' + name);
+function greet(name) {
+  console.log('Hello, my name is ' + name);
 }
 
 /* Create an array called `dataTypes` with atleast 1 of every data type;
@@ -39,6 +40,8 @@ var dataTypes = [null,undefined,true,'cat',24,[],{}];
  */
 
 var dog = {
-	name:'Spot',
-	bark: function(){console.log("Woof woof mother fucker")}
+  name:'Spot',
+  bark: function() {
+    console.log("Woof woof!");
+  }
 };
